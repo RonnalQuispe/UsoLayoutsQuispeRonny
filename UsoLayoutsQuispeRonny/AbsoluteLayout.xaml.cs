@@ -1,5 +1,4 @@
 namespace UsoLayoutsQuispeRonny;
-
 public partial class AbsoluteLayout : ContentPage
 {
     public AbsoluteLayout()
@@ -19,5 +18,3 @@ public partial class AbsoluteLayout : ContentPage
     }
 
 }
-
-

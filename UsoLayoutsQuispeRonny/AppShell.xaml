@@ -9,7 +9,22 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:GridLayout}"
+        Route="GridLayout" />
+
+    <ShellContent
+        Title="StackLayout"
+        ContentTemplate="{DataTemplate local:StackLayout}"
+        Route="StackLayout" />
+
+    <ShellContent
+        Title="FlexLayout"
+        ContentTemplate="{DataTemplate local:FlexLayout}"
+        Route="FlexLayout" />
+
+    <ShellContent
+        Title="AbsoluteLayout"
+        ContentTemplate="{DataTemplate local:AbsoluteLayout}"
+        Route="AbsoluteLayout" />
 
 </Shell>
